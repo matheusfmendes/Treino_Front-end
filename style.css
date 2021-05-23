@@ -1,57 +1,148 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    background-color: rgb(76, 120, 252);
+    width: 250px;
+}
+.btn{
+    border: none;
+}
+.tela0{
+    background-color: black;
+    height: 2px;
+    width: 205px;
+    margin-top: -181px;
 }
 
-body, html {
-    height: 100%;
+.tela1{
+background-color: white;
+height: 50px;
+width: 205px;
+}
+.tela2{
+    background-color: black;
+    height: 2px;
+    width: 206px;
+}
+.tela3{
+    background-color: black;
+    height: 181px;
+    width: 2px;
+    margin-left: 203px;
+    margin-top: -181px;
+}
+.tela4{
+    background-color: black;
+    height: 181px;
+    width: 2px;
+    margin-right: 100px;
+    margin-top: -181px;
+}
+.btn-n1{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
 }
 
-.linhas{
-    display: none;
+.btn-n2{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+ 
 }
 
-.linhas p{
-    font-size: 30px;
+.btn-n3{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px; 
+ 
 }
 
-.menu{
-    width: 100px;
-    height: 100%;
-    background: gray;
-    
+.btn-n4{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
 }
 
-.menu-mobile{
-    width: 100px;
-    height: 100%;
-    background: gray;
-    display: none;
+.btn-n5{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px; 
+ 
+}
+.btn-n6{
+  border: 0;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 15px; 
+ 
 }
 
-.menu a{
-    display: block;
-    text-decoration: none;
-    color: black;
+.btn-n7{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;   
+ 
 }
 
-@media(max-width: 700px){
+.btn-n8{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px; 
+ 
+}
 
-    .linhas{
-        display: block;
+.btn-n9{
+    border: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px; 
+ 
+}
+
+@media only screen and (max-width: 660px) {
+    div {
+        width: 250px;
     }
-    .menu{
-        width: 100px;
-        height: 100%;
-        background: gray;
-        display: none;
-    }
-    
-    .menu-mobile{
-        width: 100px;
-        height: 100%;
-        background: gray;
-        display: block;
-    }
-
 }
